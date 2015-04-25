@@ -7,5 +7,5 @@
 meteor-platform
 autopublish
 insecure
-bootstrap
 underscore
+mizzao:bootstrap-3
