@@ -1,5 +1,5 @@
 var postsData = [ {
-    title: 'LOLCATS',
+    title: 'Funny',
     url: 'http://lolcats.com/'
   },
   {
@@ -8,7 +8,11 @@ var postsData = [ {
 }, {
     title: 'MeteorJS',
     url: 'http://meteor.com'
-  }
+  },
+  {
+    title: 'Job Searches',
+    url: 'http://indeed.com'
+} 
 ];
 Template.postsList.helpers({
   posts: postsData
