@@ -8,3 +8,4 @@ meteor-platform
 insecure
 underscore
 mizzao:bootstrap-3
+iron:router
