@@ -1,3 +1,3 @@
 ##DoubleClique - a social news platform and job board
 
-####Written in Meteor.js
+####Built with Meteor.js, Bootstrap, and MongoDB
