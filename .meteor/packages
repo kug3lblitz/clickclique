@@ -25,3 +25,7 @@ standard-minifier-css
 standard-minifier-js
 shell-server
 sacha:spin
+stylus
+ian:accounts-ui-bootstrap-3
+npm-bcrypt
+accounts-password
