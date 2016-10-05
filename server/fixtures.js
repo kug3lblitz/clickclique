@@ -19,7 +19,8 @@ if (Posts.find().count() === 0) {
       title: 'Pinterest',
       userId: kat._id,
       author: kat.profile.name,
-      url: 'http://pinterest.com/', submitted: new Date(now - 7 * 3600 * 1000)
+      url: 'http://pinterest.com/', submitted: new Date(now - 7 * 3600 * 1000),
+      commentsCount: 2
     });
     
     Comments.insert({
@@ -43,7 +44,8 @@ if (Posts.find().count() === 0) {
       userId: pat._id,
       author: pat.profile.name,
       url: 'http://finance.google.com',
-      submitted: new Date(now - 10 * 3600 * 1000)
+      submitted: new Date(now - 10 * 3600 * 1000),
+      commentsCount: 0
     });
 
     Posts.insert({
@@ -51,6 +53,7 @@ if (Posts.find().count() === 0) {
       userId: pat._id,
       author: pat.profile.name,
       url: 'http://distrowatch.com',
-      submitted: new Date(now - 12 * 3600 * 1000)
+      submitted: new Date(now - 12 * 3600 * 1000),
+      commentsCount: 0
     }); 
 }
